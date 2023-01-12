@@ -36,7 +36,7 @@ class Sprite {
 }
 
 /** Player class */
-export class Player {
+class Player {
   constructor(position) {
     this.position = position;
     this.velocity = {
